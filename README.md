@@ -52,9 +52,7 @@ xince-pptx-skill/
 ├── LICENSE                        # MIT
 ├── assets/
 │   ├── design-tokens.json         # color, typography, spacing
-│   ├── editable-starter.pptx      # 6-slide editable PowerPoint
-│   ├── editable-starter-preview.jpg
-│   └── style-reference-grid.jpg   # public demo imagery, NOT original deck
+│   └── style-reference.svg        # original public design illustration
 ├── references/
 │   ├── visual-spec.md
 │   ├── layout-recipes.md
@@ -75,7 +73,7 @@ python scripts/validate_style.py assets/editable-starter.pptx
 python scripts/check_palette.py
 ```
 
-页面布局采用16:9；演示PPT以真实可编辑形状和文本实现，而不是用一张图片覆盖整页。
+运行构建脚本后生成 `assets/editable-starter.pptx`（6页、16:9）。演示PPT使用原生可编辑形状和文字，不以整页图片代替幻灯片。仓库提供构建脚本而不是预编译二进制 PPTX，方便审查和自由修改。\n\n![Style reference](assets/style-reference.svg)
 
 ## 免责声明 / Disclaimer
 
