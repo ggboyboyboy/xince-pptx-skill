@@ -1,0 +1,93 @@
+{
+  "style_id": "xince-pptx-skill",
+  "version": "1.1.0",
+  "source_description": "Visual reconstruction of a 36-slide rasterized Xince pitch deck. Original slides and proprietary data are excluded from public release.",
+  "units": "inches",
+  "canvas": {
+    "width": 13.333,
+    "height": 7.5,
+    "ratio": "16:9",
+    "safe_horizontal": 0.38,
+    "safe_vertical": 0.25
+  },
+  "colors": {
+    "bg_base": "#081727",
+    "bg_raised": "#103149",
+    "bg_nav": "#174765",
+    "blue_electric": "#4C85D7",
+    "cyan_accent": "#24CDDF",
+    "cyan_bright": "#24CDDF",
+    "gold_claim": "#DFC48C",
+    "text_primary": "#F1F6FA",
+    "text_secondary": "#A9CAD6",
+    "state_error": "#D62832",
+    "state_success": "#28AA83"
+  },
+  "typography_pt": {
+    "hero": 50,
+    "slide_title": 32,
+    "section_title": 28,
+    "subtitle": 20,
+    "body": 18,
+    "card_title": 19,
+    "label": 14,
+    "caption": 11,
+    "metric": 44
+  },
+  "regions": {
+    "top_navigation_height": 0.5,
+    "secondary_navigation_height": 0.32,
+    "bottom_claim_height": 0.64,
+    "card_gap": 0.18
+  },
+  "outline": {
+    "default_pt": 1.25,
+    "emphasis_pt": 2.0
+  },
+  "font_fallbacks": {
+    "chinese": [
+      "Microsoft YaHei",
+      "Noto Sans CJK SC",
+      "SimHei"
+    ],
+    "english": [
+      "Aptos",
+      "Arial"
+    ]
+  },
+  "modes": {
+    "faithful": {
+      "information_groups_max": 4,
+      "ornament_intensity": "medium",
+      "navigation": "full",
+      "glow": "subtle"
+    },
+    "refined": {
+      "information_groups_max": 3,
+      "ornament_intensity": "low",
+      "navigation": "condensed",
+      "glow": "minimal"
+    }
+  },
+  "canonical_palette": {
+    "navy": "#081727",
+    "tech_blue": "#174765",
+    "cyan": "#24CDDF",
+    "electric_blue": "#4C85D7",
+    "champagne_gold": "#DFC48C",
+    "cool_white": "#F1F6FA",
+    "alert_red": "#D62832",
+    "verified_green": "#28AA83"
+  },
+  "palette_names_zh": {
+    "深海军蓝": "#081727",
+    "科技蓝": "#174765",
+    "荧光青": "#24CDDF",
+    "电子蓝": "#4C85D7",
+    "香槟金": "#DFC48C",
+    "冷白色": "#F1F6FA",
+    "警示红": "#D62832",
+    "验证绿": "#28AA83"
+  },
+  "color_note": "canonical_palette stores the eight exact user-approved hues. bg_raised and text_secondary are optional derived supporting colors, not canonical."
+}
