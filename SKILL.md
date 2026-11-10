@@ -39,7 +39,7 @@ description: 为芯片、半导体、电子制造、工业自动化、硬科技�
 6. **竞赛路演的证明感**：每页主张最好配至少一个真实证据，流程、数据、产品照片或证书的作用是证明，而不是填满空间。
 7. **科技与商业并重**：产品技术页强调严谨，商业模式与财务页要用大数字、大结论和清楚的量纲解释。
 
-参阅 `references/visual-spec.md`、`references/layout-recipes.md`、`assets/style-reference-grid.jpg`。
+参阅 `references/visual-spec.md`、`references/layout-recipes.md`、`assets/style-reference.svg`。
 
 ## 4. 工作模式
 
@@ -89,7 +89,7 @@ description: 为芯片、半导体、电子制造、工业自动化、硬科技�
 
 ## 8. 可用资源
 
-- `assets/style-reference-grid.jpg`：由可编辑示例模板生成的公开安全预览，不含原商业计划书任何页面截图。
+- `assets/style-reference.svg`：由可编辑示例模板生成的公开安全预览，不含原商业计划书任何页面截图。
 - `assets/design-tokens.json`：色板、字号、布局比例与主题参数。
 - `assets/editable-starter.pptx`：6页**可编辑**页面示范，均使用占位内容，不是原稿的翻刻。
 - `scripts/build_starter.py`：从脚本再生可编辑示范PPTX，依赖 `python-pptx`。
